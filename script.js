@@ -9,8 +9,8 @@ import {
   checkLose,
 } from "./minesweeper.js"
 
-const BOARD_SIZE = 5
-const NUMBER_OF_MINES = 2
+const BOARD_SIZE = 9
+const NUMBER_OF_MINES = 10
 
 const board = createBoard(BOARD_SIZE, NUMBER_OF_MINES)
 const boardElement = document.querySelector(".board")
